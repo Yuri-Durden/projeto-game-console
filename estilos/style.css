@@ -39,11 +39,22 @@ header {
     padding: 10px 20px;
     border-radius: 10px;
     transition: 0.2s;
-
+    position: relative;
 }
 
-.menu li a:hover {
-    background-color: #333;
+.menu li a::after {
+    content: '';
+    width: 0;
+    height: 3px;
+    background-color: #c0f308;
+    position: absolute;
+    bottom: 3px;
+    left: 16px;
+    transition: 0.3s ease-in-out;
+}
+
+.menu li a:hover::after {
+    width: 70%;
 }
 
 .logo {
