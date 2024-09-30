@@ -1,2 +1,2 @@
 # projeto-console
- site com imagens de console
+ Página em formato de galeria visual
